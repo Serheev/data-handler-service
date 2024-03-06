@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <consumer>
     <groupId>1</groupId>
-    <keySerializer>org.apache.kafka.common.serialization.StringDeserializer</keySerializer>
-    <valueSerializer>org.apache.kafka.common.serialization.StringDeserializer</valueSerializer>
+    <keyDeserializer>org.apache.kafka.common.serialization.StringDeserializer</keyDeserializer>
+    <valueDeserializer>org.apache.kafka.common.serialization.StringDeserializer</valueDeserializer>
+    <trustedPackages>*</trustedPackages>
 </consumer>
